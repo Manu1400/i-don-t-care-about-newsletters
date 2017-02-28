@@ -1,0 +1,174 @@
+[Adblock Plus 2.0]
+! Version: 1
+! Title: I don't care about newsletters
+! Expires: 1 days
+! Licence: https://easylist-downloads.adblockplus.org/COPYING
+! Homepage: https://github.com/Manu1400/i-don-t-care-about-newsletters
+! Last modified: 28 Feb 2017 00:00 UTC
+!
+! GLOBAL RULES
+!
+##.newsletter
+##.neswletters
+!
+! GLOBAL RULES for FR-fr websites
+!
+##.abonnement
+! a idea of a rule
+! ##a[href="/?page=newsletters"]
+!
+! CUSTOM RULES
+! 
+! Institutial websites (FR) : cities, CROUS, etc
+! 
+paris.fr##.block-content-newsletter
+agglo-henincarvin.fr###lettre_information, .newsletter-inscription
+choisyleroi.fr##[href="https://www.choisyleroi.fr/a-votre-service/inscription-newsletter/"]
+! ##a[ref="https://www.crous-*.fr/newsletter/"]
+crous-paris.fr##a[href="https://www.crous-paris.fr/newsletter/"]
+crous-creteil.fr##a[href="https://www.crous-creteil.fr/newsletter/"]
+crous-lille.fr##a[href="https://www.crous-lille.fr/newsletter/"]
+crous-versailles.fr##a[ref="https://www.crous-versailles.fr/newsletter/"]
+crous-orleans-tours.fr##a[href="https://www.crous-orleans-tours.fr/newsletter/"]
+!
+! Computer science
+journaldunet.com##.app_share_nl
+developpez.com##.cat_content li:th-child(1), #gabarit_superieur > nav a[href="https://www.developpez.com/newsletter/"]
+lemondeinformatique.fr##.content-right > .advice
+zdnet.fr##.newsletters
+clubic.com##.js-newsletter
+boulanger.com##.news
+! 
+! Discount
+! 
+lidl.fr##.form--newsletter, a[href="/fr/inscription-newsletter.htm"]
+!
+! Mode
+!
+jennyfer.com###newsletter_subscription
+zara.com##li[data-layout="newsletter-view"], ##newsletter-subscribe-widget
+forever21.com###signup.signup_slider
+nafnaf.com##footer > div > div.container > div > div.part-1
+sammydress.com##.footerEmail
+! TODO: bonprix.fr -> A MODAL WINDOW (on not private session)
+bonprix.fr###newsletter-subscription
+! News websites (Belgium)
+rtbe.be##.rtbf-newsletter
+!
+! News websites (France)
+!
+lemainelibre.fr##a[href="/newsletter/subscriptions"]
+lindependant.fr###bloc_newsl
+rtl.fr##.newsletter-item, a[href="/newsletter"]
+rustica.fr##a[href="#nlbox"]
+20minutes.fr##form[xtcz="hat_zone_newsletter"]
+lemonde.fr##.inscription_nl
+lexpress.fr##.newsletter, .section_newsletter, #nav_newsletter_header
+! a MailChimp Signup Form
+slate.fr###mc_embed_signup
+pluzz.francetv.fr##.newsletter, .abonnement
+francetvinfo.fr##.icn-news, .newsletter
+tempsreel.nouvelobs.com##section.encart-newsletter
+lelab.europe1.fr##.newsletter-suscribe-form
+usinenouvelle.com##.inscriptionNews
+lindependant.fr#bloc_newsl
+nicematin.com##.newsletter_block
+larep.fr##.b-newsletter.encadre
+lagazettedufennec.com##.inner_footer
+toute-la-franchise.com###formColDNewsletterGauche, .blocNewsletter
+studyrama.com##.bloc-newsletter
+ch.fashionnetwork.com##.site-newsletter
+lepoque.fr##.jetpack_subscription_widget
+mon-viti.com##.block-views
+toulouse7.com##.g1-newsletter
+koaci.com###form_newsletter
+alwihdainfo.com##.module-newsletter
+web-agri.fr##form[action="http://p4trc.emv2.com/D2UTF8"]
+touleco.fr##iframe[src="http://widget.mailjet.com/df2d5c2090085f66910ee9c0b6eca90ed06beef4.html"]
+! Buzz websites
+! 
+topito.com##.pushcrew-chrome-style-notification, .pushcrew-chrome-style-notification-safari
+! TODO: http://www.officiel-des-vacances.com/liste-top10
+!
+! Emails websites
+!
+laposte.fr##form[action="/particulier/newsletter"]
+! 
+! Transports
+! 
+qatarairways.com##form#newsletpopup2
+fr.ouibus.com##div > .block-speed-newsletter
+!
+! TLD .paris
+!
+quartierlatin.paris##.abonnezvous
+!
+! Other websites
+!
+retraiteplus.fr##.block-newsletter
+vintage-motors.net##.fancybox-wrap
+focusrh.com###studyrama-newsletter-light-block-form, #studyrama-newsletter-block-form
+lemondeduchiffre.fr###Mod241
+!
+! About movies
+!
+premiere.fr##iframe[src="https://my.sendinblue.com/users/subscribe/js_id/2lmss/id/1"]
+!
+! Movie theater (local, in France)
+!
+cine220.com##.acymailing_fulldiv
+cinemerignac.fr###mod_ccweb_newsletter
+cinejaude.fr###sidebar_newsletter_captcha, #evt2
+cinepolesud.fr###mod_ccweb_newsletter
+cineparc.fr##iframe[src="http://widget.mailjet.com/aa87c93fdb63629e223dd3532eb8bcd3f45b49f7.html"]
+! TODO : Notification on 20minutes.fr and on immojeune.com and on codespromo.fr and on www.jennyfer.com
+!
+! Websites in Maroco
+!
+! Google Search « Magasin en ligne Maroc »
+! 
+stradivarius.com##.page-footer-newsletter
+vetement.ma##.newsletter-ribbon
+! TODO : verify
+larose.ma###sb-site > section > div > div > section:nth-child(14)
+fashionavenue.ma##.block-subscribe
+bershka.com##.footer-newsletter
+venteonline.ma##.nsl-content
+zaaz.ma###newsletter_block_left
+terranovastyle.com###newsletter-validate-detail
+natureoshop.com###container_form_news
+!
+! Modal window (soft)
+!
+clubic.com##.modal-suggest-newsletter
+!
+! TODO:
+!   MODAL WINDOWS
+! 
+! zaaz.ma -> MODAL WINDOW (INTRUSIVE) immédiat -> ?
+! http://shoppeos.ma/ -> MODAL WINDOW (INTRUSIVE) quickly -> ?
+! http://www.hmall.ma/ -> MODAL WINDOW (INTRUSIVE) -> ?
+! https://www.jumia.ma/ -> MODAL WINDOW (INTRUSIVE) -> ?
+! http://www.laredoute.ma/ -> MODAL WINDOW (INTRUSIVE) -> ?
+! http://www.vetement.ma -> MODAL WINDOW (INTRUSIVE) au bout de X secondes
+! lemainelibre.fr -> fenêtre modale intrusive à la fin de la lecture de l’article
+! http://www.rustica.fr/tv/ -> MODAL WINDOW (INTRUSIVE) -> Can’t
+! uniqlo.com -> intrusive modal window
+! 
+! private websites
+! 
+#blog_subscription-2
+!
+! Health
+!
+doctissimo.fr##a[href="http://newsletter.doctissimo.fr"], .doc-doctissimo-fr-newsletter-inscription-beaute
+!
+! SCRIPT BLOCKING
+!
+!
+! GLOBAL EXCEPTIONS
+!
+@@||adblockplus.org^$document
+!
+! FILTERLIST ONLY
+!
