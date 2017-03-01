@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 2
+! Version: 3
 ! Title: I don't care about newsletters
 ! Expires: 1 days
 ! Licence: https://easylist-downloads.adblockplus.org/COPYING
@@ -32,6 +32,8 @@ lemondeinformatique.fr##.content-right > .advice
 zdnet.fr##.newsletters
 clubic.com##.js-newsletter
 boulanger.com##.news
+crucial.fr##a[href=*"/GuestEmailPreferencesView"]
+crucial.com##a[href=*"/GuestEmailPreferencesView"]
 ! 
 ! Discount
 ! 
