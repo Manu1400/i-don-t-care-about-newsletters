@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 4
+! Version: 5
 ! Title: I don't care about newsletters
 ! Expires: 1 days
 ! Licence: https://easylist-downloads.adblockplus.org/COPYING
 ! Homepage: https://github.com/Manu1400/i-don-t-care-about-newsletters
-! Last modified: 28 Feb 2017 00:02 UTC
+! Last modified: 28 Feb 2017 00:03 UTC
 !
 ! GLOBAL RULES
 !
@@ -36,6 +36,8 @@ clubic.com##.js-newsletter
 boulanger.com##.news
 crucial.fr##a[href=*"/GuestEmailPreferencesView"]
 crucial.com##a[href=*"/GuestEmailPreferencesView"]
+ebizmarts.com##.home-newsletter
+themeforest.net##[data-target="#footer-subscribe"], #footer-subscribe
 ! 
 ! Discount
 ! 
@@ -60,7 +62,7 @@ lindependant.fr###bloc_newsl
 rtl.fr##.newsletter-item, a[href="/newsletter"]
 rustica.fr##a[href="#nlbox"]
 20minutes.fr##form[xtcz="hat_zone_newsletter"]
-lemonde.fr##.inscription_nl
+lemonde.fr##.inscription_nl, .lien-newsletter
 lexpress.fr##.newsletter, .section_newsletter, #nav_newsletter_header
 ! a MailChimp Signup Form
 slate.fr###mc_embed_signup
@@ -115,6 +117,7 @@ lush.ca##.contentasset, form#maillist
 ! 
 decathlon.fr##.newsletterPart
 ffck.org##.widget_meta
+france-trampoline.com##.newsletter_block_left
 !
 ! About movies
 !
