@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 7
+! Version: 8
 ! Title: I don't care about newsletters
 ! Expires: 1 days
 ! Licence: https://easylist-downloads.adblockplus.org/COPYING
 ! Homepage: https://github.com/Manu1400/i-don-t-care-about-newsletters
-! Last modified: 28 Feb 2017 02:00 UTC
+! Last modified: 28 Feb 2017 03:00 UTC
 !
 ! GLOBAL RULES
 !
@@ -45,6 +45,8 @@ ebizmarts.com##.home-newsletter
 themeforest.net##[data-target="#footer-subscribe"], #footer-subscribe
 definitions-marketing.com##.tom_link_newsletter
 mymajorcompany.com##form[name="newsletter"]
+commentcamarche.net##form[action="http://ga.ccmbg.com/ss/form.php?form=12"], .ccm_social_header__newsletter
+phplist.com###newsletter-signup
 ! 
 ! Discount
 ! 
