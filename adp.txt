@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 8
+! Version: 9
 ! Title: I don't care about newsletters
 ! Expires: 1 days
 ! Licence: https://easylist-downloads.adblockplus.org/COPYING
 ! Homepage: https://github.com/Manu1400/i-don-t-care-about-newsletters
-! Last modified: 28 Feb 2017 03:00 UTC
+! Last modified: 28 Feb 2017 11:00 UTC
 !
 ! GLOBAL RULES
 !
@@ -16,6 +16,8 @@
 ##aside#mc4wp_form_widget-6
 ! AcyMailing Starter demo - Part of https://demo.acyba.com/
 ##.acymailing_module
+! MailPoet (Wysija) MailPoet Newsletters, a WordPress plugin
+##.widget_wysija
 !
 ! GLOBAL RULES for FR-fr websites
 !
