@@ -1,16 +1,18 @@
 [Adblock Plus 2.0]
-! Version: 3
+! Version: 4
 ! Title: I don't care about newsletters
 ! Expires: 1 days
 ! Licence: https://easylist-downloads.adblockplus.org/COPYING
 ! Homepage: https://github.com/Manu1400/i-don-t-care-about-newsletters
-! Last modified: 28 Feb 2017 00:01 UTC
+! Last modified: 28 Feb 2017 00:02 UTC
 !
 ! GLOBAL RULES
 !
 ##.newsletter
 ##.neswletters
 ##a[href*="/newsletter/"]
+! MailChimp for WordPress (ie : http://1001startups.fr/)
+##aside#mc4wp_form_widget-6
 !
 ! GLOBAL RULES for FR-fr websites
 !
@@ -105,6 +107,9 @@ retraiteplus.fr##.block-newsletter
 vintage-motors.net##.fancybox-wrap
 focusrh.com###studyrama-newsletter-light-block-form, #studyrama-newsletter-block-form
 lemondeduchiffre.fr###Mod241
+fr.lush.com##.object-footer-newsletter
+lushusa.com##.contentasset, form#maillist
+lush.ca##.contentasset, form#maillist
 ! 
 ! Sports
 ! 
@@ -122,7 +127,7 @@ cinemerignac.fr###mod_ccweb_newsletter
 cinejaude.fr###sidebar_newsletter_captcha, #evt2
 cinepolesud.fr###mod_ccweb_newsletter
 cineparc.fr##iframe[src="http://widget.mailjet.com/aa87c93fdb63629e223dd3532eb8bcd3f45b49f7.html"]
-! TODO : Notification on 20minutes.fr and on immojeune.com and on codespromo.fr and on www.jennyfer.com
+! TODO : Notification on 20minutes.fr and on immojeune.com and on codespromo.fr and on www.jennyfer.com and on 1001startups.fr
 !
 ! Websites in Maroco
 !
@@ -155,6 +160,7 @@ clubic.com##.modal-suggest-newsletter
 ! lemainelibre.fr -> fenêtre modale intrusive à la fin de la lecture de l’article
 ! http://www.rustica.fr/tv/ -> MODAL WINDOW (INTRUSIVE) -> Can’t
 ! uniqlo.com -> intrusive modal window
+! http://1001startups.fr/ -> intrusive modal window, after X seconds (Wordpress)
 ! 
 ! private websites
 ! 
@@ -170,6 +176,7 @@ doctissimo.fr##a[href="http://newsletter.doctissimo.fr"], .doc-doctissimo-fr-new
 ! GLOBAL EXCEPTIONS
 !
 @@||adblockplus.org^$document
+@@||contexte.com^$document
 !
 ! FILTERLIST ONLY
 !
