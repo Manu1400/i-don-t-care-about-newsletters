@@ -1,15 +1,16 @@
 [Adblock Plus 2.0]
-! Version: 5
+! Version: 6
 ! Title: I don't care about newsletters
 ! Expires: 1 days
 ! Licence: https://easylist-downloads.adblockplus.org/COPYING
 ! Homepage: https://github.com/Manu1400/i-don-t-care-about-newsletters
-! Last modified: 28 Feb 2017 00:03 UTC
+! Last modified: 28 Feb 2017 00:04 UTC
 !
 ! GLOBAL RULES
 !
 ##.newsletter
 ##.neswletters
+##.block-newsletter
 ##a[href*="/newsletter/"]
 ! MailChimp for WordPress (ie : http://1001startups.fr/)
 ##aside#mc4wp_form_widget-6
@@ -71,7 +72,6 @@ francetvinfo.fr##.icn-news, .newsletter
 tempsreel.nouvelobs.com##section.encart-newsletter
 lelab.europe1.fr##.newsletter-suscribe-form
 usinenouvelle.com##.inscriptionNews
-lindependant.fr#bloc_newsl
 nicematin.com##.newsletter_block
 larep.fr##.b-newsletter.encadre
 lagazettedufennec.com##.inner_footer
@@ -105,19 +105,20 @@ quartierlatin.paris##.abonnezvous
 !
 ! Other websites
 !
-retraiteplus.fr##.block-newsletter
 vintage-motors.net##.fancybox-wrap
 focusrh.com###studyrama-newsletter-light-block-form, #studyrama-newsletter-block-form
 lemondeduchiffre.fr###Mod241
 fr.lush.com##.object-footer-newsletter
 lushusa.com##.contentasset, form#maillist
 lush.ca##.contentasset, form#maillist
+gifi.fr##.bloc-newsletter
 ! 
 ! Sports
 ! 
 decathlon.fr##.newsletterPart
 ffck.org##.widget_meta
-france-trampoline.com##.newsletter_block_left
+france-trampoline.com###newsletter_block_left
+triganostore.com##.form-subscribe-container
 !
 ! About movies
 !
