@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 6
+! Version: 7
 ! Title: I don't care about newsletters
 ! Expires: 1 days
 ! Licence: https://easylist-downloads.adblockplus.org/COPYING
 ! Homepage: https://github.com/Manu1400/i-don-t-care-about-newsletters
-! Last modified: 28 Feb 2017 00:04 UTC
+! Last modified: 28 Feb 2017 02:00 UTC
 !
 ! GLOBAL RULES
 !
@@ -14,9 +14,12 @@
 ##a[href*="/newsletter/"]
 ! MailChimp for WordPress (ie : http://1001startups.fr/)
 ##aside#mc4wp_form_widget-6
+! AcyMailing Starter demo - Part of https://demo.acyba.com/
+##.acymailing_module
 !
 ! GLOBAL RULES for FR-fr websites
 !
+##a[href*="/sinscrire-a-la-newsletter/"]
 ##.abonnement
 ! a idea of a rule
 ! ##a[href="/?page=newsletters"]
@@ -34,11 +37,14 @@ developpez.com##.cat_content li:th-child(1), #gabarit_superieur > nav a[href="ht
 lemondeinformatique.fr##.content-right > .advice
 zdnet.fr##.newsletters
 clubic.com##.js-newsletter
+nextinpact.com##bloc_newsletter
 boulanger.com##.news
 crucial.fr##a[href=*"/GuestEmailPreferencesView"]
 crucial.com##a[href=*"/GuestEmailPreferencesView"]
 ebizmarts.com##.home-newsletter
 themeforest.net##[data-target="#footer-subscribe"], #footer-subscribe
+definitions-marketing.com##.tom_link_newsletter
+mymajorcompany.com##form[name="newsletter"]
 ! 
 ! Discount
 ! 
@@ -175,7 +181,8 @@ clubic.com##.modal-suggest-newsletter
 doctissimo.fr##a[href="http://newsletter.doctissimo.fr"], .doc-doctissimo-fr-newsletter-inscription-beaute
 !
 ! SCRIPT BLOCKING
-!
+! src="/media/com_acymailing/js/acymailing_module.js?v=561"
+acymailing_module.js
 !
 ! GLOBAL EXCEPTIONS
 !
