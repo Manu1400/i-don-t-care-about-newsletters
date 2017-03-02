@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 9
+! Version: 10
 ! Title: I don't care about newsletters
 ! Expires: 1 days
 ! Licence: https://easylist-downloads.adblockplus.org/COPYING
 ! Homepage: https://github.com/Manu1400/i-don-t-care-about-newsletters
-! Last modified: 28 Feb 2017 11:00 UTC
+! Last modified: 29 Feb 2017 11:00 UTC
 !
 ! GLOBAL RULES
 !
@@ -18,6 +18,10 @@
 ##.acymailing_module
 ! MailPoet (Wysija) MailPoet Newsletters, a WordPress plugin
 ##.widget_wysija
+! PrestaShop : Module Popup Newsletter
+/modules/popnewsletter/
+! PrestaShop : Module Zero Popup Newsletter - Simply Subscription Popup Form
+/modules/zeropopupnewsletter
 !
 ! GLOBAL RULES for FR-fr websites
 !
