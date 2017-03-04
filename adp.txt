@@ -8,9 +8,9 @@
 !
 ! GLOBAL RULES
 !
-##.newsletter
-##.neswletters
-##.block-newsletter
+##.newsletter:not(body):not(html)
+##.neswletters:not(body):not(html)
+##.block-newsletter:not(body):not(html)
 ##a[href*="/newsletter/"]
 ! MailChimp for WordPress (ie : http://1001startups.fr/)
 ##aside#mc4wp_form_widget-6
@@ -26,7 +26,7 @@
 ! GLOBAL RULES for FR-fr websites
 !
 ##a[href*="/sinscrire-a-la-newsletter/"]
-##.abonnement
+##.abonnement:not(body):not(html)
 ! a idea of a rule
 ! ##a[href="/?page=newsletters"]
 !
