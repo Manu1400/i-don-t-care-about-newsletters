@@ -39,7 +39,6 @@ agglo-henincarvin.fr###lettre_information, .newsletter-inscription
 !
 ! Computer science
 journaldunet.com##.app_share_nl
-developpez.com##.cat_content li:th-child(1), #gabarit_superieur > nav a[href="https://www.developpez.com/newsletter/"]
 lemondeinformatique.fr##.content-right > .advice
 zdnet.fr##.newsletters
 clubic.com##.js-newsletter
